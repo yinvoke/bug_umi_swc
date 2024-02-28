@@ -3,10 +3,13 @@
 
 ## 复现条件
 电脑：MacBook Pro
+
 芯片：Apple M3 Pro
+
 版本：14.2.1 (23C71)
 
 umi使用swc作为编码和压缩器时（仅1.3.67+版本）
+
 package.json
 ```
   "devDependencies": {
