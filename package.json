@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "vokeryin <vokeryin@lilith.sh>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3",
+    "@swc/core": "^1.3.67",
+    "swc-plugin-auto-css-modules": "^1.5.0"
+  }
+}
